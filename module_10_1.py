@@ -19,7 +19,7 @@ write_words(200, 'example3.txt')
 write_words(100, 'example4.txt')
 
 end_time = datetime.now()
-print(f'Работа потоков: {end_time - start_time}')
+print(f'Работа функций: {end_time - start_time}')
 
 start_time = datetime.now()
 
