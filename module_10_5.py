@@ -20,8 +20,8 @@ print(end - start)
 
 # # Многопроцессный вызов
 # if __name__ == '__main__':
-#     start_m = datetime.now()
+#     start = datetime.now()
 #     with multiprocessing.Pool(processes=4) as pool:
 #         pool.map(read_info, filenames)
-#     end_m = datetime.now()
-#     print(end_m - start_m)
+#     end = datetime.now()
+#     print(end - start)
